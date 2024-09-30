@@ -33,3 +33,11 @@ That includes:
 - Presentation (if applicable)
 - References.
 - Docker (compose) file (if applicable)
+
+
+possible pt structure:
+
+  - NixOS introduction
+  - container possibilites
+  - mention repo
+  - conclusion
