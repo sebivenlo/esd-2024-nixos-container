@@ -1,4 +1,4 @@
-# Setting up a NixOS container using a flake
+# Setting up a docker container using a Nix flake
 
 This repository contains:
   - a [Powerpoint]() about nix and flakes
