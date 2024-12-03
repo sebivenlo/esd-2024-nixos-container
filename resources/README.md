@@ -1,9 +1,20 @@
-1. Tutorial on the Nix language [(O)](https://nixcloud.io/tour/?id=introduction/nix)
-2. Tutorial introduction into the Nix package manager and Nixpkgs package collection [(O)](https://nixos.org/guides/nix-pills/)
-3. Tutorial on flakes [(O)](https://nixos-and-flakes.thiscute.world)
-4. Nix wiki entry on flakes [(o)](https://nixos.wiki/wiki/Flakes)
-5. nix tutorials [(O)](https://nix.dev/tutorials/)
-6. nix wiki recommendations[(O)](https://nixos.wiki/wiki/Nix_Language:_Learning_resources) (in part already stated above )
-7. Offical tutorial for use with Docker [(O)](https://hub.docker.com/r/nixos/nix)
+#### Nix Language
+1. Practical excercises on the Nix language [(O)](https://nixcloud.io/tour/?id=introduction/nix)
+2. Official documentation on the language [(O)](https://nix.dev/tutorials/nix-language)
+
+#### Package Manager
+1. Tutorial introduction into the Nix package manager and Nixpkgs package collection [(O)](https://nixos.org/guides/nix-pills/)
+
+#### Linux distribution
+1. Tutorial on flakes [(O)](https://nixos-and-flakes.thiscute.world)
+2. Nix wiki entry on flakes [(o)](https://nixos.wiki/wiki/Flakes)
+
+#### General resources
+1. nix tutorials [(O)](https://nix.dev/tutorials/)
+2. nix wiki recommendations[(O)](https://nixos.wiki/wiki/Nix_Language:_Learning_resources) (in part already stated above )
+
+#### Nix with Docker
+1. Offical tutorial for use with Docker [(O)](https://hub.docker.com/r/nixos/nix)
+2. Github Repo creating a container with flake and dockerfile [(O)](https://github.com/hiibolt/nix-flake-docker)
 
    [Back to all Contents](../README.md)
