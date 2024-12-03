@@ -92,6 +92,7 @@ CMD ["/bin/sh"]
 ```
 
 This command tells Docker to launch a shell (`/bin/sh`) when the container runs, enabling interactive use or further command execution.
+Alternatively, you could also configure to launch a in the flake preconfigured service, like gitlab on a specific port or the cowsay command form our example.
 
 ---
 
