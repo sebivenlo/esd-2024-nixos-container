@@ -67,7 +67,7 @@ Instruct Docker to build the default package specified in the `flake.nix` file f
 RUN nix build .#defaultPackage.${system}-linux
 ```
 
-This command uses `nix build` to compile the package defined in the flake's outputs. The `.#defaultPackage.${system}-linux` syntax specifies the `defaultPackage` attribute for the `${system}` system. If you're using a different architecture (e.g., `x86_64-linux` for most desktop PCs or  `aarch64-linux` on Apple M Chips ), adjust this line accordingly.
+This command uses `nix build` to compile the package defined in the flake's outputs. The `.#defaultPackage.${system}-linux` syntax specifies the `defaultPackage` attribute for the `${system}` system (could have any name instead of defaultPackage, multiple are possible as well ). If you're using a different architecture (e.g., `x86_64-linux` for most desktop PCs or  `aarch64-linux` on Apple M Chips ), adjust this line accordingly.
 
 ---
 
