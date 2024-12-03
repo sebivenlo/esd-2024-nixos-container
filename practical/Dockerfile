@@ -1,13 +1,13 @@
 FROM nixos/nix:latest
 
-WORKDIR /app
+WORKDIR /workdir
 
 RUN mkdir -p /etc/nix && echo "experimental-features = nix-command flakes" > /etc/nix/nix.conf
 
-COPY . /app/
+COPY . /workdir/
 
-RUN nix build .#defaultPackage.aarch64-linux
+RUN nix build .#defaultPackage.x86_64-linux
 
-ENV PATH="/app/result/bin:${PATH}"
+ENV PATH="/workdir/result/bin:${PATH}"
 
 CMD ["/bin/sh"]
