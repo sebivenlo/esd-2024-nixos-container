@@ -6,7 +6,7 @@ This tutorial will guide you through creating a Docker container that utilizes N
 
 ### 1. Create the Dockerfile
 
-First, in an empty folder, create a file named `Dockerfile`. This file will contain instructions for building your Docker image.
+First, in an this folder, create a file named `Dockerfile`. This file will contain instructions for building your Docker image.
 
 ---
 
