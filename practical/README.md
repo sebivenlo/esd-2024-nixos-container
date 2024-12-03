@@ -1,6 +1,6 @@
 ### Instructions
 
-This tutorial will guide you through creating a Docker container that utilizes Nix for package management, incorporating Nix Flakes to manage dependencies and configurations. By the end, you'll have a functional Docker container configured with Nix, built using the exact code provided in this directory, in case you struggle.
+This tutorial will guide you through creating a Docker container that utilizes Nix for package management, incorporating Nix Flakes to manage dependencies and configurations. By the end, you'll have a functional Docker container configured with Nix, built using the exact code provided in the solution directory, in case you struggle with it.
 
 ---
 
