@@ -4,13 +4,12 @@ Nix Presentation:
 
 	So what is nix ? 
 
-		( here three icons with the text programming 					language, package manager and linux 						distribution can be seen)
+		( new slide )
 
 	Nix encompasses a domain-specific, purely functional, and 	lazy programming language, a package manager, and serves 	as the foundation for NixOS, a Linux distribution.
 
 		
-		(Now a whole slide on the programming language, 			featuring icons with key words on 
-		“purely functional”, “lazy” and “purpose-built” )
+		(new slide)
 
 	Domain-specific: Nix is designed specifically for package 		management and system configuration, not as a general-		purpose language.
 
@@ -20,13 +19,11 @@ Nix Presentation:
 	
 	Lazy evaluation: Expressions are evaluated only when their 	results are needed.
 	
-		(now switch to a new slide containing an image of this 			code:
-		let attrs = { a = 15; b = builtins.throw "Oh no!"; };
-		in "The value of 'a' is ${toString attrs.a}" )
+		(new slide )
 
 	For example, the built-in function throw halts evaluation. In the 	following expression, evaluation succeeds because the thrown 	exception is never accessed:
 
-		( now a slide on the package manager, not sure yet about 		content, shouldn’t be too much text, so people are 			focused on me talking and not the slides reading 				as main focus )
+		( new slide )
 
 	Traditional package managers like dpkg and rpm modify the 	global system state. For instance, installing foo-1.0 to /usr/bin/	foo prevents simultaneous installation of foo-1.1 without 		altering installation paths or binary names, which can disrupt 	dependent applications.
 	
