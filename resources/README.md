@@ -12,6 +12,7 @@
 #### General resources
 1. nix tutorials [(O)](https://nix.dev/tutorials/)
 2. nix wiki recommendations[(O)](https://nixos.wiki/wiki/Nix_Language:_Learning_resources) (in part already stated above )
+3. Nix Packages [(O)](https://search.nixos.org/packages)
 
 #### Nix with Docker
 1. Offical tutorial for use with Docker [(O)](https://hub.docker.com/r/nixos/nix)
