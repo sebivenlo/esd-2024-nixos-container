@@ -121,6 +121,7 @@ In the same directory, create a file named `flake.nix` with the following conten
   };
 }
 ```
+I know this is a lot thrown at you. Large parts of it are just boilerplate. below is a description what happens. But no worries if you dont get it instantly, this is just a simple showcase. After is a link to excercises on the Nix language, letting some things become more clear. 
 
 This `flake.nix` file defines the Nix Flake, specifying inputs and outputs for the project:
 
@@ -166,7 +167,16 @@ vim --version
 
 If both commands execute successfully, it confirms that your Docker container is correctly set up with Nix and the specified packages.
 
+---
+
 ### 12. Add another program
 
-Continue by searching through [the Nix packages](https://search.nixos.org/packages) and add a addtional program
+Continue by searching through [the Nix packages](https://search.nixos.org/packages) and add an addtional program,
+If you got no idea: you could write a simple java or c hello world using vim, search for the packages containing the dependencies needed and add them to the list.
+
+---
+
+### 13. Nix Language tutorial
+
+Finally, start with these short excercises on Nix [(O)](https://nixcloud.io/tour/?id=introduction/nix)
 ```
