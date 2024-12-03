@@ -6,6 +6,7 @@
 1. Tutorial introduction into the Nix package manager and Nixpkgs package collection [(O)](https://nixos.org/guides/nix-pills/)
 
 #### Linux distribution
+1. NixOS-wiki page on NixOS [(O)](https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution)
 1. Tutorial on flakes [(O)](https://nixos-and-flakes.thiscute.world)
 2. Nix wiki entry on flakes [(o)](https://nixos.wiki/wiki/Flakes)
 
