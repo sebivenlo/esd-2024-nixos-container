@@ -34,8 +34,7 @@ Nix Presentation:
 	In Nix, a "derivation" defines how to build a package, 			encompassing its dependencies and build instructions.
 
 
-		( image on new slide showing this  /	nix/store/«hash-			name»
-		And below this: /nix/store/									s4zia7hhqkin1di0f187b79sa2srhv6k-	bash-4.2-p45/ )
+		( new slide )
 	
 	Derivations are stored in the Nix store with paths like /nix/		store/«hash-name».
 
@@ -46,7 +45,7 @@ Nix Presentation:
 	The Nix store maintains all packages, with different versions in 	separate locations, and its contents are immutable.
 
 	
-		( new slide on OS, showing the icons for and with the 			text: “Linux distribution” and one or two others you may 		come up with ) 
+		( new slide  ) 
 	
 	NixOS is a Linux distribution built on the Nix package 			manager. It uses declarative Nix configuration files to define 	the entire system state and supports atomic upgrades and 		rollbacks.
 	
@@ -56,7 +55,7 @@ Nix Presentation:
 
 2. Benefits 
 
-		(new slide with  icons for: 									“reproducable environments”, “dependency					 management” “NixPkgs”)
+		(new slide )
 	
 	Reproducible Environments:
 	Nix enables deterministic builds through declarative 			specifications, ensuring that environments can be replicated 	precisely across different systems.
@@ -67,7 +66,7 @@ Nix Presentation:
 
 3. Flakes
 
-		(new slide with with info on the text in short points)
+		( new slide )
 	
 	Introduced around late 2021, flakes are an experimental 		feature in Nix that aim to standardize project structures and 	simplify sharing and maintenance.
 
